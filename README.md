@@ -1,15 +1,13 @@
-# SideScroller
-#Main class - ScrollerRun
-#Class for Obstacles 
-#Class for Powerups
+# HotTrail
 
-#lass PlayScreen:
-    def __init__(self):
+## Members
+    Tillman Tate - Project manager
+    Bennett Judd - Coder
+    Elliot Maw - Audio/Visual Designer
+    Bikram - Coder
+    Joe rinehart - 
     
-    def render_score_panel(self):
-    
-    def render_grid_layout(self):
-    
-    def render_map(self):
-    
-    def render_build(Building):
+## Project objective
+    Hot trail is a side scrolling game where a criminal has to run from the police. The game will start off with the logo and a start button. When you are in the game you will start getting chased by an Enemy down allieways. 
+## Ui and Logic planning
+
