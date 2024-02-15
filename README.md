@@ -12,3 +12,4 @@
     
     def render_map(self):
     
+    def render_build(Building:
