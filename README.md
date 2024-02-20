@@ -39,11 +39,11 @@ attack(): Initiates an attack or special action.
 Police Class:
 
 
-# Constructor: Police()
+# Constructor: enemy()
 ## Member Variables:
-position: Current position of the police on the screen.
-velocity: Speed and direction of police movement.
-aggression: Level of aggression of the police (determines behavior).
+position: Current position of the enemy on the screen.
+velocity: Speed and direction of enemy movement.
+aggression: Level of aggression of the enemy (determines behavior).
 ## Methods:
 patrol(): Initiates a standard patrol behavior.
 chasePlayer(): Makes the police character pursue the player.
