@@ -58,6 +58,6 @@ size - is the size or Dimensions of the obstacle.
 collideWithPlayer() - this will Determine if the player collides with the obstacle.
 collideWithPolice() - this will Determine if the police collide with the obstacle.
 We could also have a class for the score if needed or if we add it
-
+![class diagram](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-02-20%20at%209.33.23%20AM.png?raw=true)
 
 
