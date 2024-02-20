@@ -5,7 +5,7 @@
     Bennett Judd - Coder
     Elliot Maw - Audio/Visual Designer
     Bikram - Project Researcher
-    Joe rinehart - 
+    Joe rinehart - Coder
     
 ## Project objective
 Hot Trail is a side-scrolling game where you play as a criminal fleeing from the police.
