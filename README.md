@@ -61,3 +61,7 @@ We could also have a class for the score if needed or if we add it
 ![class diagram](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-02-20%20at%209.33.23%20AM.png?raw=true)
 
 ![GUI mockup](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/image.jpg?raw=true)
+
+# Progress of sidescroller
+
+![first motion of character](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-02-22%20at%209.18.09%20AM.png?raw=true)
