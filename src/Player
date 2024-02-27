@@ -1,1 +1,16 @@
 
+# player.py
+import pygame
+
+class player:
+    def __init__(self, x, y,r,g,b):
+        self.x = x
+        self.y = y
+        self.image = pygame.Surface((50, 50), pygame.SRCALPHA)
+        pygame.draw.ellipse(self.image, (r, g,b), (0, 0, 25, 25))
+
+    def display(self, screen):
+        screen.blit(self.image, (self.x, self.y))
+
+    def get_rect(self):
+        return pygame.Rect(self.x, self.y, 50, 50)
