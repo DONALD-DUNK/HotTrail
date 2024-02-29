@@ -65,3 +65,4 @@ We could also have a class for the score if needed or if we add it
 # Progress of sidescroller
 ## First level of development added movement
 ![first startup screen](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-02-22%20at%209.18.09%20AM.png?raw=true)
+
