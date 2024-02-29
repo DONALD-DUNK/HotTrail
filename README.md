@@ -3,8 +3,8 @@
 ## Members
     Tillman Tate - Project manager
     Bennett Judd - Coder
-    Elliot Maw - Audio/Visual Designer
-    Bikram - Project Researcher
+    Elliot Maw - Visual Designer
+    Bikram - Audio designer/Project Researcher
     Joe rinehart - Coder
     
 ## Project objective
