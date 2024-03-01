@@ -14,7 +14,7 @@ It's all about dodging and escaping in this fast-paced adventure!
 ## Ui and Logic planning and classes
 GameController Class:
 
-# Constructor: GameController()
+# GameController()
 ## Member Variables:
 player: Reference to the player character object.
 police: List of police characters chasing the player.
@@ -26,7 +26,7 @@ update(): Updates the game state each frame.
 endGame(): Ends the game and displays the final score.
 Player Class:
 
-# Constructor: Player()
+# Player()
 ## Member Variables:
 position - this is the current position of the player on the screen.
 velocity this is the speed and direction of player movement.
@@ -39,7 +39,7 @@ attack(): Initiates an attack or special action.
 Police Class:
 
 
-# Constructor: enemy()
+# Enemy()
 ## Member Variables:
 position: Current position of the enemy on the screen.
 velocity: Speed and direction of enemy movement.
@@ -50,7 +50,7 @@ chasePlayer(): Makes the police character pursue the player.
 attackPlayer(): Initiates an attack on the player.
 Obstacle Class:
 
-# Constructor: Obstacle()
+# Obstacle()
 ## Variables:
 position - this is the Current position of the obstacle on the screen.
 size - is the size or Dimensions of the obstacle.
