@@ -10,8 +10,13 @@ clock = pygame.time.Clock()
 
 def start_screen():
     screen.fill((0, 0, 0))
+    hottrail = pygame.image.load('hottrail.gif')
+    imac = hottrail.get_rect(center=(1920//2, 1080//2 -200))
+    screen.blit(hottrail, imac) 
+
+    
     text = font.render('Press any key to start the game', True, (255, 255, 255))
-    text_rect = text.get_rect(center=(1920//2, 1080//2))
+    text_rect = text.get_rect(center=(1920//2, 1080//2 + 100))
     screen.blit(text, text_rect)
     pygame.display.flip()
     wait = True
@@ -41,7 +46,10 @@ def game_loop():
            if event.type == pygame.QUIT:
                 running = False
         screen.fill((0,0,0))
-           
+
+
+        pygame.draw.line(screen, (255, 255, 255), (0, 825), (1920,825), 2)
+   
             
         keys = pygame.key.get_pressed()
         if keys[pygame.K_d]:
@@ -55,10 +63,10 @@ def game_loop():
 
         if keys[pygame.K_w] |  keys[pygame.K_SPACE]:
             
-            p1.y -= 6 * jump
+            p1.y -= 2 * jump
             jheight += 10
             if jheight >= 100:
-                jump -= 0.03
+                jump -= 0.01
            
                               
         else:        
