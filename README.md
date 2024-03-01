@@ -70,5 +70,6 @@ We could also have a class for the score if needed or if we add it
 
 ![updated startup screen](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-03-01%20at%2010.04.36%20AM.png?raw=true)
 
+![updated startup](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-03-01%20at%2010.58.01%20AM.png?raw=true)
 
 ![updated movement screen](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-03-01%20at%2010.11.20%20AM.png?raw=true)
