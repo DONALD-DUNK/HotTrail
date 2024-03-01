@@ -58,11 +58,10 @@ size - is the size or Dimensions of the obstacle.
 collideWithPlayer() - this will Determine if the player collides with the obstacle.
 collideWithPolice() - this will Determine if the police collide with the obstacle.
 We could also have a class for the score if needed or if we add it
-![class diagram](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-02-20%20at%209.33.23%20AM.png?raw=true)
+![class diagram](https://raw.githubusercontent.com/DONALD-DUNK/SideScroller/ba3fd2ef2e1d1e9af78bbc38608d1bfbfd11c8f0/images/Screenshot%202024-03-01%20at%2010.00.34%20AM.png)
 
 ![GUI mockup](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/image.jpg?raw=true)
 
 # Progress of sidescroller
 ## First level of development added movement
 ![first startup screen](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-02-22%20at%209.18.09%20AM.png?raw=true)
-
