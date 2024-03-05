@@ -43,10 +43,6 @@ def game_loop():
     
     
     p1 = player(lx + 50, ly + 50)
-    b1 = block(100,100)
-  
-    b1.load_image('start_image.png', 50, 50)
-    b1.display(screen)
     pygame.display.flip() 
     running = True
     while running:
