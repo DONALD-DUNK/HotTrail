@@ -27,7 +27,7 @@ endGame(): Ends the game and displays the final score.
 Player Class:
 
 ## Player()
-![Player idle sprite](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/character_idle_side_hi.gif?raw=true)
+![Player idle sprite](https://github.com/DONALD-DUNK/SideScroller/blob/main/CHARACTER_IDLE_ELLIOTT.gif?raw=true)
 ### Member Variables:
 position - this is the current position of the player on the screen.
 velocity this is the speed and direction of player movement.
