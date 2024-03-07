@@ -68,6 +68,7 @@ We could also have a class for the score if needed or if we add it
 ## First level of development added movement
 ![first movement screen](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-02-22%20at%209.18.09%20AM.png?raw=true)
 
+![hottrail gif](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/hottrail_elliott.gif?raw=true)
 
 ![updated startup screen](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/Screenshot%202024-03-01%20at%2010.04.36%20AM.png?raw=true)
 
