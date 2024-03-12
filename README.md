@@ -26,6 +26,9 @@ update(): Updates the game state each frame.
 endGame(): Ends the game and displays the final score.
 Player Class:
 
+## Audio()
+
+
 ## Player()
 ![Player idle sprite](https://github.com/DONALD-DUNK/SideScroller/blob/main/CHARACTER_IDLE_ELLIOTT.gif?raw=true)
 ![Player nervous animation](https://github.com/DONALD-DUNK/SideScroller/blob/main/images/character_idle_nerves_elliott.gif?raw=true)
