@@ -7,6 +7,8 @@ class block:
         self.image = None
 
     def load_image(self, file, width, height):
+        self.width = width
+        self.height = height
         self.image = pygame.transform.scale(pygame.image.load(file), (width, height))
 
     def display(self, screen):
