@@ -51,7 +51,7 @@ def game_loop():
            if event.type == pygame.QUIT:
                 running = False
         screen.fill((0,0,0))
-        b1 = block(75,725)
+        b1 = block(80,725)
         b2 = block(100,775)
         
      
