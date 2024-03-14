@@ -51,11 +51,15 @@ def game_loop():
            if event.type == pygame.QUIT:
                 running = False
         screen.fill((0,0,0))
-        b1 = block(100,775)
+        b1 = block(75,725)
+        b2 = block(100,775)
+        
      
   
-        b1.load_image('start_image.png', 50, 50)
+        b1.load_image('Box.png', 50, 50)
         b1.display(screen)
+        b2.load_image('Box.png', 50, 50)
+        b2.display(screen)
 
         pygame.draw.line(screen, (255, 255, 255), (0, 825), (1920,825), 2)
    
@@ -101,6 +105,15 @@ def game_loop():
             p1.x = ((b1.x - b1.width/2)-2)
         if p1.x <= ((b1.x+25 + b1.width/2)+2) and p1.x > b1.x and p1.y > (b1.y - b1.height/2) and p1.y < (b1.y+50 + b1.height/2):
             p1.x = ((b1.x+25 + b1.width/2)+2)
+
+        if p1.y >= (b2.y - (b2.height/2)) and p1.y <= (b2.y - (b2.height/2)+10) and p1.x >= (b2.x - b2.width/2) and p1.x <= (b2.x+25 + b1.width/2):
+
+            p1.y = (b2.y - b2.height/2)
+            grav = 0
+        if p1.x >= ((b2.x - b2.width/2)-2) and p1.x < b2.x and p1.y > (b2.y - b2.height/2) and p1.y < (b2.y+50 + b2.height/2):
+            p1.x = ((b2.x - b2.width/2)-2)
+        if p1.x <= ((b2.x+25 + b2.width/2)+2) and p1.x > b2.x and p1.y > (b2.y - b2.height/2) and p1.y < (b2.y+50 + b2.height/2):
+            p1.x = ((b2.x+25 + b2.width/2)+2)    
         
        
         
